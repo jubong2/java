@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let nums = [1, 2, 3];
+      let chars = ["a", "b", "c", "d"];
+      let numsChars = nums.concat(chars);
+      //   console.log(numsChars);
+      let charsnum = chars.concat(nums);
+
+      let string = nums.join();
+      document.write(`구분자 없이 : ${string}<br>`);
+      let string1 = nums.join("/====/");
+      document.write(`/구분자 지정 : ${string1}`);
+      // push()
+      let rest = nums.push(4, 5);
+      console.log(nums);
+      //pop
+      let pop = chars.pop();
+      // shift()
+      let shift = chars.shift
+      console.log(chars)
+      //splise()
+      console.log(chars);
+    </script>
+  </body>
+</html>
