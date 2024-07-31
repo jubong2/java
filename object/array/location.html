@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=., initial-scale=1.0" />
+    <title>location객체</title>
+  </head>
+  <body>
+    <h1>location객체</h1>
+    <div id="display">
+      <script>
+        document.write(`<p><b>location.href : </b>${location.href}</p>`);
+        document.write(`<p><b>location.href : </b>${location.host}</p>`);
+        document.write(`<p><b>location.href : </b>${location.protocol}</p>`);
+      </script>
+    </div>
+    <button
+      onclick="
+    location.replace('http://www.canva.com/')"
+    >
+      canvar 주소
+    </button>
+  </body>
+</html>

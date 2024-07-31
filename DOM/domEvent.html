@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="images/tree-1-thumb.jpg" alt="tree" id="flower" />
+    <script>
+      const flower = document.querySelector("#flower");
+      flower.onclick = function () {
+        // alert('안녕하세요')
+        // 클릭하면 이미지 바꾸기
+        const newTmg = "images/tree-2-thumb.jpg";
+        flower.src = newTmg;
+      };
+    </script>
+  </body>
+</html>
